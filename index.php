@@ -1,7 +1,7 @@
 <?php
 require_once 'app/init.php';
-
-if(isset($_GET['query_set'])){
+//Initinal fail
+if(isset($_GET['query_set']))//{
 
 //Did we deploy properlly?
   $query_data = $_GET['query_set'];
