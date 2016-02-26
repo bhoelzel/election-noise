@@ -3,7 +3,7 @@ require_once 'app/init.php';
 
 if(isset($_GET['query_set'])){
 
-//Did we deploy properlly?
+//Did we deploy 
   $query_data = $_GET['query_set'];
   $query_result = $client->search([
     'index' => 'sentiment',
