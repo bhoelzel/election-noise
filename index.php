@@ -3,7 +3,7 @@ require_once 'app/init.php';
 
 if(isset($_GET['query_set'])){
 
-// Ok, here we go now 2.00
+// Ok, tears now
   $query_data = $_GET['query_set'];
   $query_result = $client->search([
     'index' => 'sentiment',
