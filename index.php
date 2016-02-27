@@ -1,5 +1,3 @@
-//Testing the deploy method
-
 
 <?php
 require_once 'app/init.php';
