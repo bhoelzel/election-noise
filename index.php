@@ -1,5 +1,4 @@
 //Testing the deploy method
-//.
 
 
 <?php
