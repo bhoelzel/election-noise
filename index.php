@@ -1,4 +1,5 @@
 <?php
+//TESTING NEW PHP-JENKINS TEMPLATE
 require_once 'app/init.php';
 
 if(isset($_GET['query_set'])){
