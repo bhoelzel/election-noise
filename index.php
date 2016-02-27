@@ -1,4 +1,3 @@
-//I think I get it...
 <?php
 require_once 'app/init.php';
 
