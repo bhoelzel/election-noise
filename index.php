@@ -5,7 +5,7 @@ if(isset($_GET['query_set'])){
 
   $query_data = $_GET['query_set'];
   $query_result = $client->search([
-    'index' => 'sentiment-*',
+    'index' => 'sentiment-%{+yyyy.MM.dd}',
     'type' => 'test-type',
     'body' => [
       'query' => [
