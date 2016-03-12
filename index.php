@@ -5,8 +5,8 @@ if(isset($_GET['query_set'])){
 
   $query_data = $_GET['query_set'];
   $query_result = $client->search([
-    'index' => 'sentiment-2',
-    'type' => 'test-type',
+    'index' => 'sentiment*',
+    'type' => 'tweet',
     'body' => [
       'query' => [
         'bool' => [
