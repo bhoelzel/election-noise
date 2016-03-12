@@ -1,12 +1,11 @@
 <?php
-//TESTING NEW PHP-JENKINS TEMPLATE
 require_once 'app/init.php';
 
 if(isset($_GET['query_set'])){
 
   $query_data = $_GET['query_set'];
   $query_result = $client->search([
-    'index' => 'sentiment',
+    'index' => 'sentiment-*',
     'type' => 'test-type',
     'body' => [
       'query' => [
