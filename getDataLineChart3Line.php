@@ -5,7 +5,7 @@ require_once 'app/init.php';
 $candidate = $_GET['candidate'];
 //For timezone adjustment
 date_default_timezone_set('GMT');
-$minutes_back = 30;
+$minutes_back = $_GET['time'];//30;
 
 
 //Elasticsearch query

@@ -11,6 +11,7 @@
 
     <!-- Candidate -->
     var this_candidate ='trump';
+    var time_frame =30;
 
     // Load the Visualization API and the piechart package.
     google.charts.load('current', {'packages':['corechart']});
@@ -23,7 +24,9 @@
           url: "getData.php",
           dataType: "json",
           //Provide candidate string for quries
-          data: { candidate: this_candidate},
+          data: { candidate: this_candidate,
+                  time: time_frame
+                },
           async: false
           }).responseText;
 
@@ -48,10 +51,12 @@ google.charts.setOnLoadCallback(drawChart2);
 
 function drawChart2() {
   var jsonData = $.ajax({
-      url: "getDataLineChart0.php",
+      url: "getDataLineChart3Line.php",
       dataType: "json",
       //Provide candidate string for quries
-      data: { candidate: this_candidate},
+      data: { candidate: this_candidate,
+              time: time_frame
+      },
       async: false
       }).responseText;
 
