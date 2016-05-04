@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<!--
+	TXT by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hilary Clinton</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+type="text/javascript"></script>
+
+<style type="text/css">
+@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+
+#feedControl {
+margin-top : 10px;
+margin-left: auto;
+margin-right: auto;
+width : 440px;
+font-size: 12px;
+color: #9CADD0;
+}
+</style>
+<script type="text/javascript">
+function load() {
+var feed ="https://news.google.com/news?cf=all&hl=en&pz=1&ned=us&csid=7b06e7052a959d78&output=rss";
+new GFdynamicFeedControl(feed, "feedControl");
+
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(load);
+</script>
+  <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    <!-- Candidate -->
+    var this_candidate ='Hillary Clinton';
+    var time_frame =300;
+
+    // Load the Visualization API and the piechart package.
+    google.charts.load('current', {'packages':['corechart']});
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var jsonData = $.ajax({
+          url: "getData.php",
+          dataType: "json",
+          //Provide candidate string for quries
+          data: { candidate: this_candidate,
+                  time: time_frame
+                },
+          async: false
+          }).responseText;
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable(jsonData);
+      // Instantiate and draw our chart, passing in some options.
+
+      var pie_options = {
+                width: 400,
+                height: 240,
+                is3D:  true,
+                colors: ['#0000FF', '#FFA500', '#FF0000'],
+             //   backgroundColor: '#f2f5f3',
+                title: 'All Time Sentiment: '+this_candidate
+              };
+
+      var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+      chart.draw(data,  pie_options);
+    }
+
+
+<!-- -->
+google.charts.setOnLoadCallback(drawChart2);
+
+
+function drawChart2() {
+  var jsonData = $.ajax({
+      url: "getDataLineChart3Line.php",
+      dataType: "json",
+      //Provide candidate string for quries
+      data: { candidate: this_candidate,
+              time: time_frame
+      },
+      async: false
+      }).responseText;
+
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable(jsonData);
+      // Add some more options
+      var options = {
+        title: 'Sentiment past '+time_frame+ ' Minutes: '+this_candidate,
+        //curveType: 'function',
+    //    backgroundColor: '#f2f5f3',
+        legend: { position: 'bottom' }
+      };
+      //Set and draw
+      var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+      chart.draw(data, options);
+}
+    </script>
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<div class="logo container">
+						<div>
+							<h1><a href="index.html" id="logo"></a></h1>
+							<p>Democratic Party</p>
+						</div>
+					</div>
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">CANDIDATES</a>
+							<ul>
+								<li><a href="trump.html">Donald Trump</a></li>
+								<li><a href="clinton.html">Hilary Clinton</a></li>
+								<li>
+									<a href="ted.html">Ted Cruz</a>
+									
+								</li>
+								<li><a href="barne.html">Barnie Sandres</a></li>
+							</ul>
+						</li>
+						<li><a href="debates.html">DEBATES</a></li>
+						<li><a href="search.php">SEARCH</a></li>
+            <li><a href="predict.php">PREDICTION</a></li>
+					</ul>
+				</nav>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="main" class="container">
+						<div class="row">
+							<div class="9u 12u(mobile) important(mobile)">
+								<div class="content content-left">
+
+									<!-- Content -->
+
+										<article class="box page-content">
+
+											<header>
+												<h2>Hilary Clinton</h2>
+												
+												<ul class="meta">
+													<li class="icon fa-clock-o">5 days ago</li>
+													<li class="icon fa-comments"><a href="#">1,024</a></li>
+												</ul>
+											</header>
+
+											<section>
+												<span class="image featured"><img src="images/clintondes.jpg" alt="" /></span>
+												<p>
+													Hillary Clinton was born on October 26, 1947, in Chicago, Illinois, going on to earn her law degree from Yale University. She married fellow law school graduate Bill Clinton in 1975. She later served as first lady from 1993 to 2001, and then as a U.S. senator from 2001 to 2009. In early 2007, Clinton announced her plans to run for the presidency. During the 2008 Democratic primaries, she conceded the nomination when it became apparent that Barack Obama held a majority of the delegate vote. After winning the national election, Obama appointed Clinton secretary of state. She was sworn in as part of his cabinet in January 2009 and served until 2013. In the spring of 2015, she announced her plans to run again for the U.S. presidency. 
+
+.
+												</p>
+											</section>
+											  <!-- Candidate -->
+     <div id="chart_div" align="center"></div>
+    <!--Div that will hold the line chart-->
+    <div id="curve_chart" style="width: 900px; height: 500px"></div>
+<!-- <div>
+<button class="button b1">Button</button>
+<button class="button b2">Button</button>
+<button class="button b3">Button</button>
+</div>	 -->	<br><br>
+
+											<section>
+												<h3>Information</h3>
+												
+	<b>												Background </b>
+<p>
+Hillary Diane Clinton was born Hillary Diane Rodham on October 26, 1947, in Chicago, Illinois. She was raised in Park Ridge, Illinois, a picturesque suburb located 15 miles northwest of downtown Chicago.
+
+Hillary Rodham was the eldest daughter of Hugh Rodham, a prosperous fabric store owner, and Dorothy Emma Howell Rodham; she has two younger brothers, Hugh Jr. (born 1950) and Anthony (born 1954).
+
+As a young woman, Hillary was active in young Republican groups and campaigned for Republican presidential nominee Barry Goldwater in 1964. She was inspired to work in some form of public service after hearing a speech in Chicago by the Reverend Martin Luther King Jr., and became a Democrat in 1968.
+</p>
+<b>Education and Early Career
+</b><p>
+Rodham attended Wellesley College, where she was active in student politics and elected senior class president before graduating in 1969. She then attended Yale Law School, where she met Bill Clinton. Graduating with honors in 1973, she went on to enroll at Yale Child Study Center, where she took courses on children and medicine and completed one post-graduate year of study.
+
+Hillary worked at various jobs during her summers as a college student. In 1971, she first came to Washington, D.C. to work on U.S. Senator Walter Mondale's sub-committee on migrant workers. In the summer of 1972, she worked in the western states for the campaign of Democratic presidential nominee George McGovern.
+
+In the spring of 1974, Rodham became a member of the presidential impeachment inquiry staff, advising the Judiciary Committee of the House of Representatives during the Watergate Scandal. 
+
+(Chief Counsel Jerry Zeifman would later contend that he fired Clinton from the committee for what he deemed as unethical professional behavior connected to Nixon's due process. These allegations have been contradicted by other media sources that deny Zeifman's authority over the young attorney at this time, with no comment from Clinton herself.) 
+
+After President Richard M. Nixon resigned in August, she became a faculty member of the University of Arkansas Law School in Fayetteville, where her Yale Law School classmate and boyfriend Bill Clinton was teaching as well.</p>
+<b>Marriage to Bill Clinton</b>
+<p>
+Hillary Rodham married Bill Clinton on October 11, 1975, at their home in Fayetteville. Before he proposed marriage, Clinton had secretly purchased a small house that she had remarked that she liked. When he proposed marriage to her and she accepted, he revealed that they owned the house. Their daughter, Chelsea Victoria, was born on February 27, 1980.
+
+In 1976, Hillary worked on Jimmy Carter's successful campaign for president while husband Bill was elected attorney general. Bill Clinton was elected governor in 1978 at age 32, lost reelection in 1980, but came back to win in 1982, 1984, 1986 (when the term of office was expanded from two to four years) and 1990.</p>
+<b>Bid for 2016 Presidency</b>
+<p>
+In June 2014, Clinton released Hard Choices, a memoir published by Simon & Schuster, which rose to number one on the New York Times Best Seller list. The following year in early March 2015, Clinton faced controversy and criticism when it was revealed that she had used her personal email address to handle official governmental business during her time as secretary of state. In a news conference held at the United Nations, speaking initially on gender equality and the political situation in Iran, Clinton stated that she had utilized her personal email for convenience as allowed by state department protocol. She later turned over all governmental correspondence to the Obama administration while deleting messages that could be construed as personal. 
+
+After much speculation and assumptions over whether Clinton would run for the U.S. presidency, her plans were made official in the spring of 2015. On April 12, Clinton's campaign chairperson John D. Podesta announced via email that the former secretary of state was entering the race to secure the Democratic presidential nomination for the 2016 elections. This was immediately followed by an online campaign clip, with Clinton herself announcing that she's running for president at the end of the video. She is considered a front-runner and, if successful, would be the first woman to earn the nomination for a major party's presidential bid. 
+</p>
+<b>Campaign Issues</b>
+<p>
+On her campaign site, Clinton discusses a wide variety of issues she believes in, among them: lowering student debt, criminal justice reform, campaign finance reform, improving the healthcare coverage and costs of the Affordable Care Act (a.k.a. Obamacare), and women's rights. 
+
+However, she is also known for changing her stances on various hot button issues such as gay marriage (she now supports it) and trade deals (e.g. she is now against the Trans Pacific Partnership). In regard to the environment, Clinton has a plan to combat climate change but has been questioned by environmental activists for supporting fracking. She is also in support of the death penalty but claims it should be implemented in exceptional cases.</p>
+											</section>
+
+											
+
+										</article>
+
+								</div>
+							</div>
+							<div class="3u 12u(mobile)">
+								<div class="sidebar">
+
+									<!-- Sidebar -->
+
+										<!-- Recent Posts -->
+											<section>
+												<h2 class="major"><span>Recent Posts</span></h2>
+												<ul class="divided">
+													<!-- <li>
+														<article class="box post-summary">
+															<h3><a href="#">A Subheading</a></h3>
+															<ul class="meta">
+																<li class="icon fa-clock-o">6 hours ago</li>
+																<li class="icon fa-comments"><a href="#">34</a></li>
+															</ul>
+														</article>
+													</li>
+													<li>
+														<article class="box post-summary">
+															<h3><a href="#">Another Subheading</a></h3>
+															<ul class="meta">
+																<li class="icon fa-clock-o">9 hours ago</li>
+																<li class="icon fa-comments"><a href="#">27</a></li>
+															</ul>
+														</article> --><a class="twitter-timeline" href="https://twitter.com/hashtag/HillaryClinton" data-widget-id="716887662590734337">#HillaryClinton Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+														</li>
+</div>
+													<li><!-- <div class"3u 12u(mobile)" >
+<div id="feedControl" class="col 16 m12 s12" >Loading...</div>
+														
+								</div> 
+							</div> -->
+							<div class="3u 12u(mobile)">
+	<section class="box feature">
+	<!-- <div id="feedControl" class="3u 12u(Mobile)" >Loading...</div> -->
+	<script type="text/javascript" src="http://output97.rssinclude.com/output?type=js&amp;id=1071993&amp;hash=a63267ad15e7942526142e6f7f04dccb"></script>
+
+	</section>
+</div>
+						</div>
+						<div class="row 200%">
+							<div class="12u">
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer" class="container">
+					<div class="row 200%">
+						<div class="12u">
+
+							<!-- About -->
+								<section>
+									<h2 class="major"><span>What's this about?</span></h2>
+									<p style="font-size:20px">
+										This web site is about US Election 2016, based on Twitter Data Sentiment analysis.  
+										
+							 	</p>
+								</section>
+
+						</div>
+					</div>
+					
+
+					<!-- Copyright -->
+						<div id="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">DRS</a></li>
+							</ul>
+						</div>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
