@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<!--
+	TXT by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Donald Trump</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<!-- <link rel="stylesheet" type="text/css" href="css/style.css">
+ -->
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+type="text/javascript"></script>
+
+<style type="text/css">
+@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+
+#feedControl {
+margin-top : 10px;
+margin-left: auto;
+margin-right: auto;
+width : 440px;
+font-size: 12px;
+color: #9CADD0;
+}
+</style>
+<script type="text/javascript">
+function load() {
+var feed ="https://news.google.com/news?cf=all&hl=en&pz=1&ned=us&csid=7b06e7052a959d78&output=rss";
+new GFdynamicFeedControl(feed, "feedControl");
+
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(load);
+</script>
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<div class="logo container">
+						<div>
+							<h1><a href="index.html" id="logo"></a></h1>
+							<p>Republican Party</p>
+						</div>
+					</div>
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Currunt Updates</a>
+							<ul>
+								<li><a href="#">Lorem ipsum dolor</a></li>
+								<li><a href="#">Magna phasellus</a></li>
+								<li>
+									<a href="#">Phasellus consequat</a>
+									<ul>
+										<li><a href="#">Lorem ipsum dolor</a></li>
+										<li><a href="#">Phasellus consequat</a></li>
+										<li><a href="#">Magna phasellus</a></li>
+										<li><a href="#">Etiam dolore nisl</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Veroeros feugiat</a></li>
+							</ul>
+						</li>
+						<li><a href="left-sidebar.html">Debates</a></li>
+						<li class="current"><a href="right-sidebar.html">News</a></li>
+						<li><a href="no-sidebar.html">Prediction</a></li>
+					</ul>
+				</nav>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="main" class="container">
+						<div class="row">
+							<div class="9u 12u(mobile) important(mobile)">
+								<div class="content content-left">
+
+									<!-- Content -->
+
+										<article class="box page-content">
+
+											<header>
+												<h2>Donald Trump</h2>
+												
+												<ul class="meta">
+													<li class="icon fa-clock-o">5 days ago</li>
+													<li class="icon fa-comments"><a href="#">1,024</a></li>
+												</ul>
+											</header>
+
+											<section>
+												<span class="image featured"><img src="images/trumpdes.jpg" alt="" /></span>
+												<p>
+													Real estate developer Donald John Trump was born in 1946, in Queens, New York. In 1971 he became involved in large, profitable building projects in Manhattan. In 1980, he opened the Grand Hyatt, which made him the city's best-known and most controversial developer. In 2004 Trump began starring in the hit NBC reality series The Apprentice, which also spawned the offshoot The Celebrity Apprentice. In 2015 Trump announced his candidacy for president of the United States and shortly after the first Republican debate became the party's frontrunner.
+
+.
+												</p>
+											</section>
+
+   
+
+<div>
+<button class="button b1">Button</button>
+<button class="button b2">Button</button>
+<button class="button b3">Button</button>
+</div>		<br><br>									<section>
+												<h3>Information</h3>
+												<b>Early Life and Education</b>
+<p>
+Donald John Trump was born on June 14, 1946, in Queens, New York, the fourth of five children of Frederick C. and Mary MacLeod Trump. Frederick Trump was a builder and real estate developer who came to specialize in constructing and operating middle-income apartments in Queens, Staten Island and Brooklyn. Donald was an energetic, assertive child, and his parents sent him to the New York Military Academy at age 13, hoping the discipline of the school would channel his energy in a positive manner. 
+
+Trump did well at the academy, both socially and academically, rising to become a star athlete and student leader by the time he graduated in 1964. He then entered Fordham University and two years later transferred to the Wharton School of Finance at the University of Pennsylvania, from which he graduated in 1968 with a degree in economics.
+</p>
+
+<b>New York Real Estate Developer</b>
+<p>
+Trump seems to have been strongly influenced by his father in his decision to make a career in real estate development, but the younger man's personal goals were much grander than those of his senior. As a student, Trump worked with his father during the summer and then joined his father's company, Elizabeth Trump & Son, after graduation from college. He was able to finance an expansion of the company's holdings by convincing his father to be more liberal in the use of loans based on the equity in the Trump apartment complexes. However, business was very competitive and profit margins were narrow.
+
+In 1971 Donald Trump was given control of the company, which he later renamed the Trump Organization. He also moved his residence to Manhattan, where he began to make important connections with influential people. Convinced of the city's economic opportunity, Trump soon became involved in large building projects in Manhattan that would offer opportunities for earning high profits, using attractive architectural design and winning public recognition.
+
+When the Pennsylvania Central Railroad entered bankruptcy, Trump was able to obtain an option on the railroad's yards on the West Side of Manhattan. When initial plans for apartments proved unfeasible because of the poor economic climate, Trump promoted the property as the location of a city convention center, and the city government selected it over two other sites in 1978. Trump's offer to forego a fee if the center were named after his family, however, was turned down, along with his bid to build the complex, which was ultimately named for Senator Jacob Javits.
+
+In 1974 Trump obtained an option on one of Penn Central's hotels, the Commodore, which was unprofitable but in an excellent location adjacent to Grand Central Station. The next year he signed a partnership agreement with the Hyatt Hotel Corporation, which did not have a large downtown hotel. Trump then worked out a complex deal with the city to win a 40-year tax abatement, arranged financing and then completely renovated the building, constructing a striking new facade of reflective glass designed by architect Der Scutt. When the hotel, renamed the Grand Hyatt, opened in 1980, it was instantly popular and proved an economic success, making Donald Trump the city's best known and most controversial developer in the process.
+</p>
+<b>Expanding His Empire</b>
+<p>
+In 1977, Trump married Ivana Zelnickova Winklmayr, a New York fashion model who had been an alternate on the 1972 Czech Olympic Ski Team. After the 1978 birth of the couple's first of three children, Donald John Trump Jr., Ivana Trump was named vice president in charge of design in the Trump Organization and played a major role in supervising the renovation of the Commodore.
+
+In 1979 Trump leased a site on Fifth Avenue adjacent to the famous Tiffany & Company as the location for a monumental $200-million apartment-retail complex designed by Der Scutt. Opened in 1982, it was dubbed Trump Tower. The 58-story building featured a six-story atrium lined with pink marble and included an 80-foot waterfall. The luxurious building attracted well-known retail stores and celebrity renters and brought Trump national attention.
+
+Meanwhile Trump was investigating the profitable casino gambling business, which was approved in New Jersey in 1977, and in 1980 he was able to acquire a piece of property in Atlantic City. Trump brought in his younger brother Robert to head up the complex project of acquiring the land, winning a gambling license and obtaining permits and financing. Holiday Inn Corporation, the parent company of Harrah's casino hotels, offered a partnership, and the $250 million complex opened in 1984 as Harrah's at Trump Plaza. Trump bought out Holiday Inn soon thereafter and renamed the facility Trump Plaza Hotel and Casino. Trump also purchased a Hilton Hotels casino-hotel in Atlantic City when the corporation failed to obtain a gambling license and renamed the $320 million complex Trump's Castle. Later, while it was under construction, he was able to acquire the largest hotel-casino in the world, the Taj Mahal at Atlantic City, which opened in 1990.
+
+Back in New York City, Donald Trump had purchased an apartment building and the adjacent Barbizon-Plaza Hotel in New York City, which faced Central Park, with plans to build a large condominium tower on the site. The tenants of the apartment building, however, who were protected by the city's rent-control and rent-stabilization programs, fought Trump's plans and won. Trump then renovated the Barbizon, renaming it Trump Parc. In 1985 Trump purchased 76 acres on the West Side of Manhattan for $88 million to build a complex to be called Television City, which was to consist of a dozen skyscrapers, a mall and a riverfront park. The huge development was to stress television production and feature the world's tallest building, but community opposition and a long city-approval process delayed commencement of construction on the project. In 1988 he acquired the Plaza Hotel for $407 million and spent $50 million refurbishing it under his wife Ivana's direction.
+</p>
+
+<b>Presidential Contender
+</b><p>
+On June 16, 2015, Trump made his White House ambitions official when he announced his run for president on the Republican ticket for the 2016 elections, joining a crowded field of more than a dozen major candidates. "I am officially running for president of the United States," Trump said during his announcement at Trump Towers in New York City, "and we are going to make our country great again." He added with his signature bravado: "I will be the greatest jobs president that God ever created.” 
+
+Upon Trump's announcement to run for president, his scathing, derogatory remarks about Mexicans and immigration caused NBC to sever business ties with him. “Due to the recent derogatory statements by Donald Trump regarding immigrants, NBCUniversal is ending its business relationship with Mr. Trump,” NBC responded in a statement. "To that end, the annual Miss USA and Miss Universe Pageants, which are part of a joint venture between NBC and Trump, will no longer air on NBC."
+
+The statement added: "In addition, as Mr. Trump has already indicated, he will not be participating in The Celebrity Apprentice on NBC. Celebrity Apprentice is licensed from Mark Burnett's United Artists Media Group and that relationship will continue."  
+
+In response to NBC, Trump was unapologetic and defiant, filing a $500 million dollar lawsuit against the company, with his daughter Ivanka stating that her father's comments were distorted by the media. Yet among great social outcry, other organizations have withdrawn from associations with Trump as well: The Professional Golfers Association of America pulled plans for its fall Grand Slam tournament to be held at Trump National Golf Club in Los Angeles, while representatives for Macy's announced that the retail chain would no longer carry Trump's menswear collection.   
+</p>
+<b>A Controversial Candidate
+</b><p>
+On July 18, 2015, Trump set off another media maelstrom with comments made at the Christian-oriented Family Leadership Summit in Iowa, calling out Senator and one-time Republican presidential nominee John McCain's reputation as a military hero. "He’s not a war hero. He’s a war hero because he was captured. I like people who weren’t captured," Trump said, referring to McCain having been detained during the Vietnam War for several years after being gunned down as an airman, surviving multiple broken limbs and torture. Military veteran groups and advocates have generally denounced Trump's statements.
+
+Despite these and his many other controversial remarks, a national phone poll completed by late July 2015 saw Trump in the lead for the Republican nomination, with ex-governor of Florida Jeb Bush slightly behind and within the poll's margin of error. More than half of Republican voters polled said that they were still unsure about which candidate from the large pool of contenders they would ultimately support. 
+
+Nonetheless, having garnered major media attention, Trump was one of the ten top candidates who participated in a Fox News presidential debate in early August. While the mogul continued a tone set in earlier appearances, he was critiqued and questioned on everything from his business practices to demeaning, sexist comments made about women via television and social media. Trump later made highly insulting remarks about moderator Megyn Kelly for the nature of her questions, and was hence disinvited from an Atlanta speaking engagement. He also initially maintained that he might opt for a third-party candidacy if running on the Republican ticket wasn't viable, but later signed a loyalty pledge stating he wouldn't do so. 
+
+As of March 2016, Trump appears to be the likely Republican presidential nominee, with only Texas Senator Ted Cruz and Ohio Governor John Kasich holding out hope for their campaigns. Trump has maintained his somewhat commanding lead over his opponents despite ongoing criticisms and controversies, including his proposal to ban the immigration of Muslims to the United States, an apparent endorsement of waterboarding, and widespread protests at his political rallies, several of which have turned violent. </p>
+											</section>
+
+										
+										</article>
+
+								</div>
+							</div>
+							<div class="3u 12u(mobile)">
+								<div class="sidebar">
+
+									<!-- Sidebar -->
+
+										<!-- Recent Posts -->
+											<section>
+												<h2 class="major"><span>Recent Posts</span></h2>
+												<ul class="divided">
+													<!-- <li>
+														<article class="box post-summary">
+															<h3><a href="#">A Subheading</a></h3>
+															<ul class="meta">
+																<li class="icon fa-clock-o">6 hours ago</li>
+																<li class="icon fa-comments"><a href="#">34</a></li>
+															</ul>
+														</article>
+													</li>
+													<li>
+														<article class="box post-summary">
+															<h3><a href="#">Another Subheading</a></h3>
+															<ul class="meta">
+																<li class="icon fa-clock-o">9 hours ago</li>
+																<li class="icon fa-comments"><a href="#">27</a></li>
+															</ul>
+														</article> --><a class="twitter-timeline" href="https://twitter.com/hashtag/DonaldTrump" data-widget-id="716892290619297792">#DonaldTrump Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+													</li>
+													<div id="body">
+<div id="feedControl">Loading...</div>
+</div>
+												
+
+								</div>
+							</div>
+						</div>
+						<div class="row 200%">
+							<div class="12u">
+
+								<!-- Features -->
+									<section class="box features">
+										<h2 class="major"><span>A Major Heading</span></h2>
+										<div>
+											<div class="row">
+												<div class="3u 12u(mobile)">
+
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+															<h3><a href="#">A Subheading</a></h3>
+															<p>
+																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
+																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
+															</p>
+														</section>
+
+												</div>
+												<div class="3u 12u(mobile)">
+
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+															<h3><a href="#">Another Subheading</a></h3>
+															<p>
+																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
+																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
+															</p>
+														</section>
+
+												</div>
+												<div class="3u 12u(mobile)">
+
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+															<h3><a href="#">And Another</a></h3>
+															<p>
+																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
+																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
+															</p>
+														</section>
+
+												</div>
+												<div class="3u 12u(mobile)">
+
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+															<h3><a href="#">And One More</a></h3>
+															<p>
+																Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
+																lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
+															</p>
+														</section>
+
+												</div>
+											</div>
+											<div class="row">
+												<div class="12u">
+													<ul class="actions">
+														<li><a href="#" class="button big">Do Something</a></li>
+														<li><a href="#" class="button alt big">Think About It</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer" class="container">
+					<div class="row 200%">
+						<div class="12u">
+
+							<!-- About -->
+								<section>
+									<h2 class="major"><span>What's this about?</span></h2>
+									<p>
+										This is <strong>TXT</strong>, yet another free responsive site template designed by
+										<a href="http://n33.co">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
+										<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
+										whatever you're working on (personal or commercial), just be sure to give us credit for the design.
+										That's basically it :)
+									</p>
+								</section>
+
+						</div>
+					</div>
+					<div class="row 200%">
+						<div class="12u">
+
+							<!-- Contact -->
+								<section>
+									<h2 class="major"><span>Get in touch</span></h2>
+									<ul class="contact">
+										<li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
+										<li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+										<li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
+										<li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
+										<li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
+									</ul>
+								</section>
+
+						</div>
+					</div>
+
+					<!-- Copyright -->
+						<div id="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
