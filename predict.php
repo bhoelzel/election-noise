@@ -475,7 +475,7 @@
 <!--TEST-->
     <h3 align="center">Rebulican Positive Count For Selected Date.</h3>
     <div id="test" align="center" style="width: 100%; height: 500px">
-
+      <h3 align="center">Click a row to see stats for primary</h3>
     </div><br/>
 <!--END TEST-->
 
@@ -486,7 +486,7 @@
     <!-- TEST2 -->
     <h3 align="center">Democrat Positive Count For Selected Date.</h3>
     <div id="test2" align="center" style="width: 100%; height: 500px">
-
+      <h3 align="center">Click a row to see stats for primary</h3>
     </div><br/>
 
 <!--END NEW--->
