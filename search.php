@@ -20,7 +20,7 @@ if(isset($_GET['query_set'])){
       ]
     ]
   ]);
-   
+
   if($query_result['hits']['total'] >= 1){
     $hits = $query_result['hits']['hits'];
     // echo $query_result['hits']['total'];
@@ -32,7 +32,7 @@ if(isset($_GET['query_set'])){
   <head>
 
     <!--Load the AJAX API-->
-   
+
     <title>Search</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -42,7 +42,7 @@ if(isset($_GET['query_set'])){
      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript">
-    
+
     // <!-- Candidate -->
     var this_candidate = "<?php echo $_GET['query_set']; ?>";
     var time_frame =60;
@@ -115,7 +115,7 @@ function drawChart2() {
 
   </head>
   <body>
-    
+
     <div id="page-wrapper">
 
       <!-- Header -->
@@ -138,20 +138,20 @@ function drawChart2() {
                 <li><a href="clinton.html">Hilary Clinton</a></li>
                 <li>
                   <a href="ted.html">Ted Cruz</a>
-                  
+
                 </li>
                 <li><a href="barne.html">Barnie Sandres</a></li>
               </ul>
             </li>
             <li><a href="debates.html">DEBATES</a></li>
             <li><a href="search.php">SEARCH</a></li>
-            <li><a href="predict.php">PREDICTION</a></li>
+            <li><a href="predict.php">ANALYSIS</a></li>
           </ul>
-          
+
         </nav>
 
       <!-- Main -->
-      
+
                       <section>
                         <!-- <h3>More intriguing information</h3>
                          --><p>
@@ -160,7 +160,7 @@ function drawChart2() {
       Search for something
       <input type="text" name="query_set" id="a" placeholder="Search for sentiment" >
     </label>
-    
+
       <input type="submit" value="Search" >
   </form>
 <div id="search">
@@ -192,7 +192,7 @@ if(isset($hits)){
 <?php
   }
 }
-?>                          
+?>
 </p>
 </section>
                     </article>
@@ -200,7 +200,7 @@ if(isset($hits)){
                 </div>
               </div>
             </div>
-          
+
   <!-- <body> -->
     <!--Div that will hold the pie chart-->
     <div id="chart_div" align="center" ></div>
@@ -214,13 +214,13 @@ if(isset($hits)){
                 <section>
                   <h2 class="major"><span>What's this about?</span></h2>
                   <p style="font-size:20px">
-                    This web site is about US Election 2016, based on Twitter Data Sentiment analysis.  
+                    This web site is about US Election 2016, based on Twitter Data Sentiment analysis.
                 </p>
                 </section>
 
             </div>
           </div>
-          
+
             <div id="copyright">
               <ul class="menu">
                 <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="#">DRS</a></li>
@@ -230,5 +230,3 @@ if(isset($hits)){
         </footer>
   </body>
 </html>
-
-
