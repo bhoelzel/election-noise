@@ -5,7 +5,7 @@
 
     <!--Load the AJAX API-->
 
-    <title>Prediction</title>
+    <title>Analysis</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -409,7 +409,7 @@
           <div class="logo container">
             <div>
 
-              <p>Here are the Prediction for US Election 2016</p>
+              <p>Here is the Analysis for US Election 2016</p>
             </div>
           </div>
         </header>
@@ -432,7 +432,7 @@
             </li>
             <li><a href="debates.html">DEBATES</a></li>
             <li><a href="search.php">SEARCH</a></li>
-            <li><a href="predict.php">PREDICTION</a></li>
+            <li><a href="predict.php">Analysis</a></li>
           </ul>
         </nav>
 
