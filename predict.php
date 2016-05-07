@@ -82,10 +82,7 @@
       dataType: "json",
       data: { 'time' : BEG_DAYS_BACK.toString()},
       success: function(json){
-
         var data = new google.visualization.DataTable(json);
-        // Create our data table out of JSON data loaded from server.
-        // var data = new google.visualization.DataTable(jsonData);
         // Add some more options
         var options = {
           title: 'Rebulican Positive Tweets',
@@ -201,6 +198,7 @@
    function drawRebResTable() {
            var data = new google.visualization.arrayToDataTable([
               ['State','Date','Delegates','Trump','Cruz','Delegate Count Winner'],
+              ['Indiana',new Date(2016,4,3),57,57,0,'Trump'],
               ['Rhode Island',new Date(2016,3,26),19,12,2,'Trump'],
               ['Pennsylvania',new Date(2016,3,26),71,57,4,'Trump'],
               ['Maryland',new Date(2016,3,26),38,38,0,'Trump'],
@@ -301,7 +299,7 @@
            var data = new google.visualization.arrayToDataTable([
 
              ['State','Date','Delegates','Clinton','Sanders','Delegate Count Winner'],
-             ['Indiana',new Date(2016,4,3),83,0,0,'DRAW'],
+             ['Indiana',new Date(2016,4,3),83,38,44,'Sanders'],
              ['Rhode Island',new Date(2016,3,26),24,11,13,'Sanders'],
              ['Pennsylvania',new Date(2016,3,26),189,105,83,'Clinton'],
              ['Delaware',new Date(2016,3,26),21,12,9,'Clinton'],
@@ -433,6 +431,7 @@
             <li><a href="debates.html">DEBATES</a></li>
             <li><a href="search.php">SEARCH</a></li>
             <li><a href="predict.php">Analysis</a></li>
+            <li><a href="comparision.php">Comparision</a></li>
           </ul>
         </nav>
 
@@ -468,26 +467,7 @@
       <img src="default.svg">
     </div><br/>
 <!--- NEW --->
-    <h3 align="center">Rebulican Delegate Results.</h3>
-    <div id="table_div_reb_res" align="center">
-      <img src="default.svg">
-    </div><br/>
-<!--TEST-->
-    <h3 align="center">Rebulican Positive Count For Selected Date.</h3>
-    <div id="test" align="center" style="width: 100%; height: 500px">
-      <h3 align="center">Click a row to see stats for primary</h3>
-    </div><br/>
-<!--END TEST-->
-
-    <h3 align="center">Democrat Delegate Results.</h3>
-    <div id="table_div_dem_res" align="center">
-      <img src="default.svg">
-    </div><br/>
-    <!-- TEST2 -->
-    <h3 align="center">Democrat Positive Count For Selected Date.</h3>
-    <div id="test2" align="center" style="width: 100%; height: 500px">
-      <h3 align="center">Click a row to see stats for primary</h3>
-    </div><br/>
+  
 
 <!--END NEW--->
 

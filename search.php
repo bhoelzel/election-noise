@@ -146,6 +146,7 @@ function drawChart2() {
             <li><a href="debates.html">DEBATES</a></li>
             <li><a href="search.php">SEARCH</a></li>
             <li><a href="predict.php">ANALYSIS</a></li>
+            <li><a href="comparision.php">Comparision</a></li>
           </ul>
 
         </nav>
