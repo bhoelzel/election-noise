@@ -58,28 +58,31 @@ google.setOnLoadCallback(load);
           url: "getData.php",
           dataType: "json",
 
+
           //Provide candidate string for quries
           data: { candidate: this_candidate,
                   time: time_frame
                 },
-          async: false
-          }).responseText;
+          success: function(jsonData){
+						// Create our data table out of JSON data loaded from server.
+						var data = new google.visualization.DataTable(jsonData);
+						// Instantiate and draw our chart, passing in some options.
 
-      // Create our data table out of JSON data loaded from server.
-      var data = new google.visualization.DataTable(jsonData);
-      // Instantiate and draw our chart, passing in some options.
+						var pie_options = {
+											width: 400,
+											height: 240,
+											is3D:  true,
+											colors: ['#FFA500', '#0000FF', '#FF0000'],
+										//  backgroundColor: '#f2f5f3',
+											title: 'All Time Sentiment: '+this_candidate
+										};
 
-      var pie_options = {
-                width: 400,
-                height: 240,
-                is3D:  true,
-                colors: ['#FFA500', '#0000FF', '#FF0000'],
-              //  backgroundColor: '#f2f5f3',
-                title: 'All Time Sentiment: '+this_candidate
-              };
+						var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+						chart.draw(data,  pie_options);
+					}
+				});
 
-      var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-      chart.draw(data,  pie_options);
+
     }
 
 
@@ -95,21 +98,23 @@ function drawChart2() {
       data: { candidate: this_candidate,
               time: time_frame
       },
-      async: false
-      }).responseText;
+			success: function(jsonData){
 
-      // Create our data table out of JSON data loaded from server.
-      var data = new google.visualization.DataTable(jsonData);
-      // Add some more options
-      var options = {
-        title: 'Sentiment past '+time_frame+ ' Minutes: '+this_candidate,
-        //curveType: 'function',
-       // backgroundColor: '#f2f5f3',
-        legend: { position: 'bottom' }
-      };
-      //Set and draw
-      var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-      chart.draw(data, options);
+				      // Create our data table out of JSON data loaded from server.
+				      var data = new google.visualization.DataTable(jsonData);
+				      // Add some more options
+				      var options = {
+				        title: 'Sentiment past '+time_frame+ ' Minutes: '+this_candidate,
+				        //curveType: 'function',
+				       // backgroundColor: '#f2f5f3',
+				        legend: { position: 'bottom' }
+				      };
+				      //Set and draw
+				      var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+				      chart.draw(data, options);
+			}
+      });
+
 }
 <!-- -->
 
@@ -151,6 +156,7 @@ function drawChart2() {
 						<li><a href="debates.html">DEBATES</a></li>
 						<li><a href="search.php">SEARCH</a></li>
             <li><a href="predict.php">ANALYSIS</a></li>
+						<li><a href="comparision.php">Comparision</a></li>
 					</ul>
 				</nav>
 
