@@ -5,7 +5,7 @@ require_once 'app/init.php';
 //$candidate = $_GET['candidate'];
 //For timezone adjustment
 date_default_timezone_set('GMT');
-$time_back = 30;
+$time_back = $_GET['time'];//30;
 $interval = "day";//Change .d to something else if you go out of dailly
 
 
